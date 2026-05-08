@@ -1,18 +1,18 @@
 #header {
+  display: flex;
   height: 40px;
   position:fixed;
   top: 0;
   left: 0;
-  
+  justify-content:space-around;
+  align-items: center;
+
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   background-color: rgba(255, 255, 255, 0.8);
   width: 100%;
 }
-#parentsday{
 
-  margin: 25%;
-}
 
 
 #logo {
@@ -33,18 +33,21 @@
 }
 
 .btn {
+  text-decoration: none;
   cursor: pointer;
-  padding: 5px;
+  color: black;
+  font-size: small;
+  
 }
 
-.product-ttle{
-  font:bolder;
-  font:xx-large;
+.product-ttl{
 
+  font-size: xx-large;
 }
 
 .product-subttl{
-  font: lighter;
+  font-size: xx-large;
+  
 }
 
 .items{
