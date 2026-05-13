@@ -95,8 +95,29 @@
   }
 }
 
-#item4 {
-  background-color: purple;
+#watchRow {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  .appleLogoInWatch {
+    width: 30px;
+  }
+}
+
+#watchTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#watch11img {
+  width: 100%;
+}
+
+#watchUltraImg {
+  width: 100%;
 }
 
 .product-main-img {
