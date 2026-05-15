@@ -1,0 +1,25 @@
+/* 기본 버튼 스타일 */
+.menu-buttons {
+    display: flex;
+    gap: 10px;
+    
+    /* 처음에는 숨김 */
+    opacity: 0;
+    transform: translateY(-20px);
+
+    /* 부드러운 애니메이션 */
+    transition: all 0.5s ease;
+}
+
+/* container에 마우스를 올리면 나타남 */
+.container:hover .menu-buttons {
+    opacity: 1;
+    transform: translateY(0);
+}
+img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
