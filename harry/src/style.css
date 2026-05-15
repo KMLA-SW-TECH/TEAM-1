@@ -98,30 +98,64 @@
 #watchRow {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 15px;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
 
   .appleLogoInWatch {
     width: 30px;
   }
 }
 
-#watchTitle {
+.watch-ttl {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0px;
 }
 
+.watch-subttl{
+  font-size:medium !important;
+  font-weight: normal !important;
+  margin: 0px!important;
+}
+
+#watch11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245 245 247);
+  flex: 1;
+}
 #watch11img {
   width: 100%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
+#watchUltra {
+  background-color: black;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+    #white-logo{
+    filter: brightness(0) invert(1);
 
-#watchUltra{
-  background-color:black ;
+  }
 }
 #watchUltraImg {
   width: 100%;
+}
+
+.watchULTRA3{
+  color: white;
 }
 
 .product-main-img {
