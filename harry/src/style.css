@@ -109,18 +109,24 @@
 }
 
 .watch-ttl {
-  padding-top: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+
+.WATCH{
+
+  
 }
 
 .watch-subttl{
   font-size:medium !important;
   font-weight: normal !important;
-  margin: 0px!important;
+  margin: 0px;
+
 }
 
 #watch11 {
@@ -155,7 +161,7 @@
 }
 
 .watchULTRA3{
-  color: white;
+  color: white !important;
 }
 
 .product-main-img {
